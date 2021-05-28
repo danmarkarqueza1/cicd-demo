@@ -27,15 +27,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	
-	<dependency>
-		<groupId>org.terasoluna.plus.framework</groupId>
-		<artifactId>terasoluna-plus-web-conf</artifactId>
-	</dependency>
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-tx</artifactId>
-	</dependency>
 
 	</dependencies>
 
