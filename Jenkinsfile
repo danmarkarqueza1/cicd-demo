@@ -6,8 +6,8 @@ pipeline {
 
         stage ('Build') {
             steps {
-                withMaven(maven: 'maven_3_8_1') {
-                    sh '/usr/local/Cellar/maven/3.8.1/libexec/bin/mvn clean package'
+                withMaven(maven: 'maven_3_10_0') {
+                    sh 'mvn clean package'
                 }
             }
         }
