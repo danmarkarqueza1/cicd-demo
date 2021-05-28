@@ -1,0 +1,6 @@
+---
+applications:
+- name: cicd-demo
+  instances: 1
+  memory: 800m
+  path: target/cicd-demo-0.0.1-SNAPSHOT.jar
