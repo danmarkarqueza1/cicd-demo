@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.appsdev.jenkins.cicd-demo' is invalid and this project uses 'com.appsdev.jenkins.cicddemo' instead.
+* The original package name 'com.cicd-example.cicd-example' is invalid and this project uses 'com.cicdexample.cicdexample' instead.
 
 # Getting Started
 
