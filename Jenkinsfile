@@ -2,12 +2,16 @@ pipeline {
 
     agent any
 
+    environment {
+         MVNHOME = tool name: 'Maven', type: 'maven'
+   }
+
     stages {
 
         stage ('Build') {
-           def mvnHome = tool name: 'Maven', type: 'maven'
+           
            steps {
-                sh "${mvnHome}/bin/mvn package"
+                sh "${MVNHOME}/bin/mvn package"
            }  
         }
 
