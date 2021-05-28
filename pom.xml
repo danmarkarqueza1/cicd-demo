@@ -8,10 +8,10 @@
 		<version>2.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cicd-example</groupId>
-	<artifactId>cicd-example</artifactId>
+	<groupId>com.appsdev.jenkins</groupId>
+	<artifactId>cicd-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cicd-example</name>
+	<name>cicd-demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -19,7 +19,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+       	    <artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
